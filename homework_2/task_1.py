@@ -23,7 +23,10 @@ while True:
     elif ans == '*':
         print(f'a * b = {a * b}\n')
     elif ans == '/':
-        print(f'a / b = {a / b}\n')
+        if a == 0 or b == 0:
+            print('На ноль делить нельзя!!!')
+        else:
+            print(f'a / b = {a / b}\n')
 
 
 
