@@ -19,5 +19,5 @@ for i in range(SHOTS):
     else:
         print('Твой ответ меньше!')
 
-if i == 2:
+if i == 10:
     print(f'А ответ был {num}')
