@@ -14,7 +14,6 @@ min_el = MAX_LIMIT + 1
 
 for i in range(SIZE_X):
     for j in range(SIZE_Y):
-        print(mas[j][i])
         if mas[j][i] < min_el:
             min_el = mas[j][i]
     mas_min[i] = min_el
