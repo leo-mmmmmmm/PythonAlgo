@@ -17,7 +17,6 @@ for num in mas:
         if num <= min_elem_1:
             min_elem_2 = min_elem_1
             min_elem_1 = num
-            continue
         else:
             min_elem_2 = num
 

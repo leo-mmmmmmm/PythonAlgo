@@ -2,7 +2,7 @@
 # сколько из них кратны любому из чисел в диапазоне от 2 до 9.
 
 mas = [i for i in range(2, 100)]
-digits = [i for i in range(2, 9)]
+digits = [i for i in range(2, 10)]
 
 count = 0
 
