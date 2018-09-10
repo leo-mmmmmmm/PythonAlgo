@@ -20,7 +20,7 @@ less_ave = []
 more_ave = []
 
 for i, profit in enumerate(factories):
-    if profit < average:
+    if profit <= average:
         less_ave.append(i)
     else:
         more_ave.append(i)
@@ -33,7 +33,7 @@ for i, item in enumerate(less_ave):
     else:
         print(item + 1, end=', ')
 
-print(f'Номера предприятий, заработавших более среднего значения:', end=' ')
+print(f'Номера предприятий, заработавших более среднего значения или равного ему:', end=' ')
 for i, item in enumerate(more_ave):
     if i == len(more_ave) - 1:
         print(item + 1, end='.\n')
